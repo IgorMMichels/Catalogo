@@ -8,7 +8,7 @@
 
 <template>
   <div class="container">
-    <h1>Alimentos</h1>
+    <h1>Acessórios</h1>
     <ProdutoCard
       v-for="produto in produtos"
       :key="produto.id"

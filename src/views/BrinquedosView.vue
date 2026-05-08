@@ -8,7 +8,7 @@ import ProdutoCard from '@/components/ProdutoCard.vue'
 
 <template>
   <div class="container">
-    <h1>Alimentos</h1>
+    <h1>Brinquedos</h1>
     <ProdutoCard
       v-for="produto in produtos"
       :key="produto.id"
