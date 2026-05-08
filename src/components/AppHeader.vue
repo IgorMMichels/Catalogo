@@ -9,7 +9,7 @@
       <RouterLink to="/alimentos">Alimentos</RouterLink>
       <RouterLink to="/Brinquedos">Brinquedos</RouterLink>
       <RouterLink to="/acessorios">Acessórios</RouterLink>
-      <RouterLink to="/Higiene">Higiene</RouterLink>
+      <RouterLink to="/higiene">Higiene</RouterLink>
     </nav>
   </header>
 </template>
