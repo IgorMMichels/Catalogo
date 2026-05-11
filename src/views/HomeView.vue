@@ -1,14 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>
-
-  <router-link to="/">Home</router-link>
-  <router-link to="/alimentos">Alimentos</router-link>
-  <router-link to="/brinquedos">Brinquedos</router-link>
-  <router-link to="/higiene">Higiene</router-link>
-  <router-link to="/acessorios">Acessórios</router-link>
-  </div>
+  <h2>Seja Muito Bem vindo ao catálogo Igor Michels! Temos muitos Bobby Good e coisarada</h2>
 </template>
 
 <style scoped></style>

@@ -26,6 +26,7 @@ function corrigirPreco(id, preco) {
         :preco="preco"
         :imagem="imagem"
         :categoria="categoria" @fechar="mostrarDialog = false"
+        @corrigir-preco="corrigirPreco"
       />
     </div>
   </div>
@@ -34,12 +35,12 @@ function corrigirPreco(id, preco) {
 <style scoped>
 .produto-card {
   border: 1px solid #ccc;
-  padding: 16px;
-  margin-bottom: 16px;
-  width: 50%;
+  padding: 24px;
+  margin: 16px;
+  width: 300px;
 }
 
 img {
-  width: 40%;
+  width: 100%;
 }
 </style>
